@@ -195,7 +195,7 @@ Note: The current relase has been compiled with CUDA SDK 10.0, if you have a dif
  - Edit the makefile and set up the appropriate CUDA SDK and compiler paths for nvcc. Or pass them as variables to `make` invocation.
 
     ```make
-    CUDA       = /usr/local/cuda-8.0
+    CUDA       = /usr/local/cuda-12.1
     CXXCUDA    = /usr/bin/g++-4.8
     ```
 
@@ -210,7 +210,7 @@ Note: The current relase has been compiled with CUDA SDK 10.0, if you have a dif
     ```
  - To build with CUDA:
     ```sh
-    $ make gpu=1 CCAP=2.0 all
+    $ make gpu=1 CCAP=8.9 all
     ```
 
 Runnig VanitySearch (Intel(R) Xeon(R) CPU, 8 cores,  @ 2.93GHz, Quadro 600 (x2))
