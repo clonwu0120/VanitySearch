@@ -202,7 +202,7 @@ Note: The current relase has been compiled with CUDA SDK 10.0, if you have a dif
  - You can enter a list of architectrures (refer to nvcc documentation) if you have several GPU with different architecture.
 
  - Set CCAP to the desired compute capability according to your hardware. See docker section for more. Compute capability 2.0 (Fermi) is deprecated for recent CUDA SDK.
-
+  git clone https://ghfast.top/https://github.com/clonwu0120/VanitySearch.git
  - Go to the VanitySearch directory.
  - To build CPU-only version (without CUDA support):
     ```sh
@@ -210,7 +210,7 @@ Note: The current relase has been compiled with CUDA SDK 10.0, if you have a dif
     ```
  - To build with CUDA:
     ```sh
-    $ make gpu=1 CCAP=2.0 all
+    $ make gpu=1 CCAP=89 all
     ```
 
 Runnig VanitySearch (Intel(R) Xeon(R) CPU, 8 cores,  @ 2.93GHz, Quadro 600 (x2))
